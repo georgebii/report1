@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<title>台中的美</title>
+<meta charset="utf-8">
+<style>
+    .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+#header{
+    text-align:center;
+    font-size: 36px;
+}
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none; 
+    }
+    .menu {
+        font-family: '標楷體';
+        font-size: 20px;
+    }
+    .menu > li { /*子選擇器，只有第一層*/
+        float: left;
+    }
+    .menu li {
+        position: relative;
+        padding: 0px;
+        border: rgb(159, 212, 255) 1px dashed;
+        min-width: 120px;
+    }
+    .menu ul {
+        position: absolute;
+        z-index: 10;
+        top: 100%;
+        display:none; /*預設ul不顯示*/
+    }
+    .menu ul li> ul {/*定義上一層ul li與下一層ul的距離*/
+        z-index: 20;
+        top: 5%;
+        left: 95%;
+    }
+    .menu a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        background-image: url(img/btn1.png);
+        background-size: cover;
+        color: black;
+    }
+    .menu a:hover {
+        background-image: url(img/btn2.png);
+        background-size: cover;
+        color: orange;
+    }
+    .menu li:hover > ul {
+        display: block; /*移動到li，li下一層的ul才顯示*/
+    }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>台中的美</h1>
+    </div>
+    <div class="bg">
+        <img src="img/001.png">
+    </div>
+    <ul class="menu">
+        <li><a href="#">美食</a>
+            <ul>
+                <li><a href="北區.html" target="blank">北區</a></li>
+                <li><a href="中區.html" target="blank">中區</a></li>
+                <li><a href="南區.html" target="blank">南區</a></li>
+                <li><a href="東區.html" target="blank">東區</a></li>
+                <li><a href="西區.html" target="blank">西區</a></li>
+                <li><a href="太平區.html" target="blank">太平區</a></li>
+            </ul>
+        </li>
+        <li><a href="#">風景</a>
+            <ul>
+                <li><a href="山上.html" target="blank">山上</a></li>
+                <li><a href="海邊.html" target="blank">海邊</a></li>
+                <li><a href="夜景.html" target="blank">夜景</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>

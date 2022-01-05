@@ -1,0 +1,134 @@
+/*內容方塊區*/
+.fig0{
+    width: auto;
+    border-radius: 0px 0px 35px 35px;
+    margin: 0px 50px; /*上下 左右*/
+    padding: 20px;
+}    
+.fig{
+    font-family: 'monospace';
+    font-weight:550;
+    border-radius: 8px 8px 35px 8px;
+    padding: 20px;
+    display: inline-block;
+}    
+.fig a{
+    color: #D2E9FF;
+    
+}
+.fig-title{
+    font-size:30px;
+    padding: 5px;
+}
+.fig-img{
+    margin: 0;
+    height: 400px;
+    width: 400px; 
+    border-radius: 30px 30px 30px 30px;/*左上 右上 右下 左下*/
+}
+
+.fig2{
+    font-family: 'monospace';
+    font-size:25px;
+    padding: 5px;
+    color: aliceblue;
+    width: auto;
+    border-radius: 0px 0px 35px 35px;
+    margin: 0px 50px; /*上下 左右*/
+    padding: 20px;
+}
+.fig2-img{
+    height: 320px;
+    width: 320px; 
+}
+.fig2-img:hover{
+    height: 480px;
+    width: 480px; 
+}
+.fig2 p{
+    margin: 30px;
+}
+.fig2 p:hover{
+    margin: 5px;
+    font-size:40px;
+    font-weight:600;
+    color: #ffffff;
+}
+
+.fig3{
+    font-family: 'monospace';
+    font-size:25px;
+    font-weight:600;
+    padding: 5px;
+    color: 	#ffffff;
+    width: auto;
+    margin: 0px 50px; /*上下 左右*/
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+}
+.fig3-img{
+    height: 200px;
+    width: 320px; 
+}
+.fig3-img:hover{
+    height: 300px;
+    width: 480px; 
+}
+.fig3-title{
+    font-size:48px;
+    font-weight:400;
+}
+.fig3 p{
+    margin: 30px;
+}
+.fig3 a:link{
+    text-decoration:none;
+    color: #A52A2A;
+    font-size:30px;
+    font-weight:600;
+}
+.fig3 a:visited {
+    color: darkorchid;
+    font-size:30px;
+    font-weight:600;
+}
+.fig3 a:hover {
+    color: 	#FA8072;
+    font-size:30px;
+    font-weight:600;
+}
+
+
+.fig4{
+    display: inline-block;
+}
+.fig5{
+    text-align:left;
+}
+.fig6{
+    font-family: 'monospace';
+    font-weight:550;
+    width: auto;
+    background-color: #336699;
+    border-radius: 8px 8px 35px 8px;
+    margin:50px;
+    padding: 20px;
+}    
+
+.food-img{
+    margin: 0;
+    height: 250px;
+    width: 250px; 
+    border-radius: 0px 8px 35px 8px;/*左上 右上 右下 左下*/
+}
+.food-word{
+    font-family: 'monospace';
+    font-size:25px;
+    margin: 30px;
+}
+.food-word:hover{
+    margin: 5px;
+    font-size:40px;
+    font-weight:600;
+    color: #fff0f0;
+}
